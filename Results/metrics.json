@@ -1,0 +1,17 @@
+{
+  "samples": 121,
+  "rmse_position": 1.4617346078963306e-16,
+  "max_position_error": 3.1401849173675503e-16,
+  "reachable_samples": 121,
+  "desired_path_length": 1.9850899742249666,
+  "actual_path_length": 1.9850899742249666,
+  "theta1_range_deg": [
+    -31.734760967065434,
+    1.912152436254727
+  ],
+  "theta2_range_deg": [
+    75.0395094786529,
+    131.2016472942049
+  ],
+  "data": "deterministic synthetic circular trajectory"
+}
