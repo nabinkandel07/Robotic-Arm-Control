@@ -21,7 +21,9 @@ Python 3.10 or newer is recommended. No third-party packages are required.
 
 The near-zero error is expected because this is an analytical kinematics simulation without motor dynamics, sensor noise, collision constraints, or joint limits. It is a software baseline, not a physical-robot validation.
 
-Generated artifacts are committed under `results/`: `metrics.json`, `trajectory.csv`, and `trajectory.svg`.
+Generated artifacts are committed under `results/`: `metrics.json`, `trajectory.csv`, `trajectory.svg`, and `joint_angles.svg`.
+
+For an academic review, see [methodology](docs/METHODOLOGY.md), [result interpretation](docs/RESULTS.md), and the [data dictionary](docs/DATA_DICTIONARY.md). Run the verification suite with `python -m unittest discover -s tests -v`.
 
 ## Layout
 
@@ -30,6 +32,9 @@ src/run_demo.py       inverse and forward kinematics simulation
 results/metrics.json  summary metrics
 results/trajectory.csv full numerical trajectory
 results/trajectory.svg trajectory visualization
+results/joint_angles.svg joint-command visualization
+docs/                  methodology, results, and field definitions
+tests/                 independent kinematics checks
 ```
 
 ## Next steps
